@@ -1,10 +1,9 @@
 .navbar-custom{
-	background-color: #FFCE54; /*MUDA COR DA BARRA DE NAVEGACAO*/
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTOS DO GOOGLE*/
-	text-transform: uppercase; /*COLOCA TEXTO EM MAIUSCULO*/
-	border:none;		/*TIRA BORDA*/	
-	font-weight: 900; /* DEIXA NEGRITO*/
-	height: 70px;
+  background-color: #FFCE54; /*MUDA COR DA BARRA DE NAVEGACAO*/
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTOS DO GOOGLE*/
+  text-transform: uppercase; /*COLOCA TEXTO EM MAIUSCULO*/
+  border:none;    /*TIRA BORDA*/  
+  font-weight: 900; /* DEIXA NEGRITO*/
 }
 
 /*ALTERA COR DO LOGO 'BRAND'*/
@@ -12,9 +11,6 @@
   color: #333;
 }
 
-.navbar-custom .container{
-	margin-top:10px;
-}
 /*ALTERA A COR QUANDO TIVER AÇÕES DO MOUSE*/
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -24,16 +20,16 @@
 
 /*QUANDO CLICAR E FICAR ATIVO AI MUDA A COR COMO SE FOSSE DO MUNDO*/
 .navbar-custom .navbar-brand.active {
-	color: #333;
+  color: #333;
     background: #FFCE54;;
 }
 
 .navbar-custom .navbar-nav{
-	letter-spacing: 3px; /*AUMENTA ESPAÇO DAS LETRAS DO MENU*/
+  letter-spacing: 3px; /*AUMENTA ESPAÇO DAS LETRAS DO MENU*/
 }
 
 .navbar-custom .navbar-nav li a{
-	color:#333; /*ALTERA COR DO MENU*/
+  color:#333; /*ALTERA COR DO MENU*/
 }
 
 /*ALTERA A COR QUANDO TIVER AÇÕES DO MOUSE NO MENU*/
