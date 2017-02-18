@@ -5,3 +5,64 @@
 	border:none;		/*TIRA BORDA*/	
 	font-weight: 900; /* DEIXA NEGRITO*/
 }
+
+/*ALTERA COR DO LOGO 'BRAND'*/
+.navbar-custom .navbar-brand {
+  color: #333;
+}
+
+/*ALTERA A COR QUANDO TIVER AÇÕES DO MOUSE*/
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active{
+  color: #333;
+}
+
+/*QUANDO CLICAR E FICAR ATIVO AI MUDA A COR COMO SE FOSSE DO MUNDO*/
+.navbar-custom .navbar-brand.active {
+	color: #333;
+    background: #FFCE54;;
+}
+
+.navbar-custom .navbar-nav{
+	letter-spacing: 3px; /*AUMENTA ESPAÇO DAS LETRAS DO MENU*/
+}
+
+.navbar-custom .navbar-nav li a{
+	color:#333; /*ALTERA COR DO MENU*/
+}
+
+/*ALTERA A COR QUANDO TIVER AÇÕES DO MOUSE NO MENU*/
+.navbar-custom .navbar-nav li a:hover, 
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active{ 
+  color: white;
+  outline: none;
+}
+
+/*ALTERA A COR DO FUNDO E DA LETRA QUANDO FOR ATIVO*/
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #333;
+}
+/*ALTERA A COR DO FUNDO E DA LETRA QUANDO FOR ATIVO E TIVER AÇÕES DO MOUSE*/
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #333;
+}
+/*ALTERA MENU HAMBURGUER*/
+.navbar-custom .navbar-toggle {
+  color: #333;/*COR DO MENU HAMBURGUER*/
+  text-transform: uppercase;
+  font-size: 10px; /*TAMANHO DO BOTÃO */
+  border-color: #333; /*COR DA BORDA*/
+}
+/*ALTERA COR QUANDO TIVER AÇÕES DO MOUSE*/
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+}
