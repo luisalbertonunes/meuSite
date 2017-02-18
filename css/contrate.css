@@ -4,6 +4,7 @@
 	text-transform: uppercase; /*COLOCA TEXTO EM MAIUSCULO*/
 	border:none;		/*TIRA BORDA*/	
 	font-weight: 900; /* DEIXA NEGRITO*/
+	height: 70px;
 }
 
 /*ALTERA COR DO LOGO 'BRAND'*/
@@ -11,6 +12,9 @@
   color: #333;
 }
 
+.navbar-custom .container{
+	margin-top:10px;
+}
 /*ALTERA A COR QUANDO TIVER AÇÕES DO MOUSE*/
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
