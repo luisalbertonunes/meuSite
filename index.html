@@ -5,24 +5,42 @@
 		<title>Contrate o Luis!</title>
 		<!--IMPORTANDO BOOTSTRAP-->	
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<!--IMPORTANTDO MEU CSS-->
+		<link rel="stylesheet" href="css/contrate.css">
 		<!--IMPORTANDO FONTES-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 	</head>
-	<body>
-		<nav class="navbar navbar-default">
+	<body id="page-top">
+		<!--BARRA DE NAVEGAÇÃO-->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
 			<div class="container">
 				<div class="navbar-header page-scroll">
-					<a href="#" class="navbar-brand">&lt;/luis_WebDev&gt;</a>
+					<a href="#page-top" class="navbar-brand">&lt;/luis_WebDev&gt;</a>
 					<button class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#menu"></button>
 				</div>
-			<ul id="menu" class="nav navbar-nav navbar-right collapse navbar-collapse">
-				<li><a href="#">Habilidades</a></li>
-				<li><a href="#">Sobre mim</a></li>
-				<li><a href="#">Contrate-me</a></li>
-			</ul>
-
+				<ul id="menu" class="nav navbar-nav navbar-right collapse navbar-collapse">
+					<li class="hidden"><a href="#page-top"></a></li>
+					<li class="page-scroll"><a href="#habilidades">Habilidades</a></li>
+					<li class="page-scroll"><a href="#sobre">Sobre mim</a></li>
+					<li class="page-scroll"><a href="#contrate">Contrate</a></li>
+				</ul>
 			</div>
 		</nav>
+		<!--CABEÇALHO-->
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<img class="img-responsive" src="img/profile.png" alt="">
+						<div class="intro-text">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
 	</body>
 	
 	<!--IMPORTANDO JQUERY-->

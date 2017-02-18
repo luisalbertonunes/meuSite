@@ -1,0 +1,7 @@
+.navbar-custom{
+	background-color: #FFCE54; /*MUDA COR DA BARRA DE NAVEGACAO*/
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTOS DO GOOGLE*/
+	text-transform: uppercase; /*COLOCA TEXTO EM MAIUSCULO*/
+	border:none;		/*TIRA BORDA*/	
+	font-weight: 900; /* DEIXA NEGRITO*/
+}
