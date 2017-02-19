@@ -18,7 +18,7 @@
   color: #333;
 }
 
-/*QUANDO CLICAR E FICAR ATIVO AI MUDA A COR COMO SE FOSSE DO MUNDO*/
+/*QUANDO CLICAR E FICAR ATIVO AI MUDA A COR COMO SE FOSSE DO FUNDO*/
 .navbar-custom .navbar-brand.active {
   color: #333;
     background: #FFCE54;;
