@@ -1,6 +1,6 @@
 .navbar-custom{
   background-color: #FFCE54; /*MUDA COR DA BARRA DE NAVEGACAO*/
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTOS DO GOOGLE*/
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTES DO GOOGLE*/
   text-transform: uppercase; /*COLOCA TEXTO EM MAIUSCULO*/
   border:none;    /*TIRA BORDA*/  
   font-weight: 900; /* DEIXA NEGRITO*/
@@ -65,4 +65,60 @@
   background-color: #333;
   color: white;
   border-color: #333;
+}
+
+/*FUNDO CABEÇALHO, ALINHAMENTO E COR DO TEXTO*/
+header{
+  text-align: center;
+  background-color:#616161;
+  color: white;
+}
+
+/*CENTRALIZAÇÃO DO CABEÇALHO EM CIMA E EMBAIXO*/
+header .container{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+/*CENTRALIZAÇÃO DA IMAGEM*/
+header img{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+/*TITULO ABAIXO DA IMAGEM CABEÇALHO*/
+header .intro-text .titulo{
+  margin-right: auto;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTES DO GOOGLE*/
+  font-size: 2.3em;
+  display: inline-block;
+}
+
+section{
+  text-align: center;
+  padding: 100px 0;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTES DO GOOGLE*/
+  font-weight: 900;
+}
+section img {
+  margin: auto;
+}
+
+section .col-sm-4{
+  padding: 5px;
+}
+
+section h2 {
+  margin: auto;
+  font-size: 3em;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+#web{
+  margin-top:20px;
+  display: inline-block;
 }
