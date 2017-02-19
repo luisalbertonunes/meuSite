@@ -76,7 +76,7 @@ header{
 
 /*CENTRALIZAÇÃO DO CABEÇALHO EM CIMA E EMBAIXO*/
 header .container{
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 /*CENTRALIZAÇÃO DA IMAGEM*/
@@ -96,7 +96,7 @@ header .intro-text .titulo{
   display: inline-block;
 }
 
-section{
+section {
   text-align: center;
   padding: 100px 0;
   text-transform: uppercase;
@@ -121,4 +121,22 @@ section h2 {
 #web{
   margin-top:20px;
   display: inline-block;
+}
+section.sobre{
+  background-color:#616161;
+  color:white;
+}
+
+p.sobre{
+  text-align: left;
+ font-size: 1.2em;
+}
+
+.sobre{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p.sobre span{
+  color:#EF5350;
 }
