@@ -76,7 +76,7 @@ header{
 
 /*CENTRALIZAÇÃO DO CABEÇALHO EM CIMA E EMBAIXO*/
 header .container{
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 /*CENTRALIZAÇÃO DA IMAGEM*/
@@ -139,4 +139,34 @@ p.sobre{
 
 p.sobre span{
   color:#EF5350;
+}
+
+p.contrate{
+  margin-top:20px; 
+ font-size: 2em;
+}
+
+footer {
+  color:white;
+  background-color:#616161;
+  letter-spacing: 3px; /*AUMENTA ESPAÇO DAS LETRAS DO MENU*/
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTES DO GOOGLE*/
+  text-transform: uppercase; /*COLOCA TEXTO EM MAIUSCULO*/
+  border:none;    /*TIRA BORDA*/  
+  font-weight: 900; /* DEIXA NEGRITO*/
+}
+
+
+footer .footer-above{
+ color: #333;
+  background-color: #FFCE54;
+  margin-left::50px;
+}
+
+
+footer h3{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /*APLICA AS FONTES DO GOOGLE*/
+  text-transform: uppercase; /*COLOCA TEXTO EM MAIUSCULO*/
+  border:none;    /*TIRA BORDA*/  
+  font-weight: 900; /* DEIXA NEGRITO*/
 }
